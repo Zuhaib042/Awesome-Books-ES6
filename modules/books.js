@@ -1,5 +1,5 @@
 export const booksList = JSON.parse(localStorage.getItem('coward')) || [];
-export const timeDate = document.getElementById('date');
+
 export const inputTitle = document.getElementById('title');
 export const inputAuthor = document.getElementById('author');
 const errorMesg = document.querySelector('.error-mesg');
@@ -13,7 +13,7 @@ export default class Books {
 
   // displaybooks
   static displayBooks = () => {
-    booksList.forEach((book, i) => {
+    booksList.forEach((book) => {
       booksSection.innerHTML += `<div class="book-detail" id="book-detail">
         <div class="one-book">
             <span class="book-title">"${
@@ -31,7 +31,7 @@ export default class Books {
         Books.removeBook(i);
       });
     });
-    Books.timeDisplay();
+    // Books.timeDisplay();
   };
 
   // addbook
@@ -55,10 +55,10 @@ export default class Books {
   };
 
   // Display Date and Time
-  static timeDisplay = () => {
-    const date = new Date();
-    const n = date.toDateString();
-    const time = date.toLocaleTimeString();
-    timeDate.innerText = `${n} , ${time}`;
-  };
+  //   static timeDisplay = () => {
+  //     const date = new Date();
+  //     const n = date.toDateString();
+  //     const time = date.toLocaleTimeString();
+  //     timeDate.innerText = `${n} , ${time}`;
+  //   };
 }
