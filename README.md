@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Awesome Books
+# Awesome Books with ES6
 
-> It is a simple data management single page application that store data in local storage. User can perform simple manipulation like adding and removing data. then the updated data get displayed on top of the page.
+> This project is a copy of another project named Awesome-Books. the difference is that i have implemented ES6 syntax in this project.
 
 ## Built With
 
@@ -10,19 +10,21 @@
   html , css and javascript
 - Frameworks
   none
+- Libraries
+  Luxon.js for Date and Time.
 - Technologies used
   linters ( Webhint, Stylelint, Eslint) ,
-  Git and Github ,
+  Git and Github.
 
 ## Live Demo (if available)
 
-[Awesome Books](https://livedemo.com)
+[Awesome Books with ES6](https://zuhaib042.github.io/Awesome-Books-ES6/)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 Run
-git clone https://github.com/Zuhaib042/Awesome-books.git
+git clone https://github.com/Zuhaib042/Awesome-Books-ES6.git
 
 ### Prerequisites
 
@@ -45,10 +47,6 @@ You can make any basic app which requires storing data in local storage.
 - GitHub: [@Zuhaib042](https://github.com/Zuhaib042)
 - Twitter: [@Zuhaib042](https://twitter.com/Zuhaib042)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@canon20paul](https://github.com/canon20paul)
 
 ## 🤝 Contributing
 
